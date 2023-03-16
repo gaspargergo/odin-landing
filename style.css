@@ -33,7 +33,37 @@ body {
 }
 
 .hero {
+	flex: 2;
+	display: flex;
+	color: white;
+	justify-content: center;
+	align-items: center;
+	background-color: #1F2937;
+}
 
+.hero-left {
+	flex-basis: 350px;
+	padding: 40px;
+}
+
+.hero-left h1 {
+	font-size: 48px;
+	font-weight: bold;
+}
+
+.hero button {
+	padding: 5px 30px;
+	background-color: blue;
+	color:white;
+	font-weight: bold;
+	border-radius: 4px;
+	border: none;
+}
+
+.hero img {
+	width: 400px;
+	height: auto;
+	margin-left: 50px;
 }
 
 .info {

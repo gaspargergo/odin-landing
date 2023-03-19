@@ -172,7 +172,17 @@ body {
 	font-size: 14px;
 }
 
-h1::first-letter, h2::first-letter, h3::first-letter {
-	color: darkred; 
+.hero p::first-letter, .quote blockquote::first-letter {
 	font-family: Times New Roman, serif;
+	font-weight: bolder;
+}
+
+.hero p::first-letter {
+	color: red;
+	font-size: 36px;
+}
+
+.quote blockquote::first-letter {
+	color: darkred; 
+	font-size: 64px;
 }

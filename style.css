@@ -51,7 +51,7 @@ body {
 	font-weight: bold;
 }
 
-.hero button {
+.hero button, .call button{
 	padding: 5px 30px;
 	background-color: #3882F6;
 	color:white;
@@ -113,7 +113,40 @@ body {
 }
 
 .call {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 50px 0;
+}
 
+.call-card {
+	background-color: #3882F6;
+	flex: 0 1 auto;
+	padding: 40px 130px;
+	border-radius: 7px;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 80px;
+}
+
+.call-card h3, .call-card p {
+	margin: 0;
+	padding: 0;
+}
+
+.call-card h3 {
+	font-size: 24px;
+}
+
+.call-card p {
+	font-size: 14px;
+	color: #E5E7EB;
+}
+
+.call-card button {
+	border: solid 2px white;
 }
 
 .footer{

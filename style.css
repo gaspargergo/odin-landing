@@ -150,7 +150,13 @@ body {
 }
 
 .footer{
-
+	background-color: #1F2937;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 0;
+	color: white;
+	font-size: 14px;
 }
 
 h1::first-letter, h2::first-letter, h3::first-letter {

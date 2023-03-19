@@ -12,12 +12,12 @@ body {
 	justify-content: space-around;
 	align-items: center;
 	background-color: #1F2937;
-	color: white;
 }
 
 .header span {
 	font-weight: bold;
 	font-size: 24px;
+	color: #F9FAF8;
 }
 
 .header-menu {
@@ -30,6 +30,7 @@ body {
 .header-menu a {
 	text-decoration: none;
 	color: #E5E7EB;
+	font-size: 18px;
 }
 
 .hero {
@@ -48,7 +49,13 @@ body {
 
 .hero-left h1 {
 	font-size: 48px;
-	font-weight: bold;
+	font-weight: bolder;
+	color: #F9FAF8;
+}
+
+.hero-left p {
+	font-size: 18px;
+	color: #E5E7EB;
 }
 
 .hero button, .call button{
@@ -70,6 +77,12 @@ body {
 	padding: 50px 0px;
 	text-align: center;
 	background-color: white;
+}
+
+.info h2 {
+	font-size: 36px;
+	font-weight: bolder;
+	color: #1F2937;
 }
 
 .info-content {

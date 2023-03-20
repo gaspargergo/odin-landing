@@ -33,6 +33,10 @@ body {
 	font-size: 18px;
 }
 
+.header-menu a:visited {
+	color: #E5E7EB;
+}
+
 .hero {
 	flex: 2;
 	display: flex;
